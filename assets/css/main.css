@@ -1,0 +1,32 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-color {
+    color: black !important;
+}
+
+/* .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    height: 50px;
+} */
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 50px; */
+}
