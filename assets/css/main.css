@@ -13,20 +13,22 @@ a {
 }
 
 .text-color {
-    color: black !important;
+    color: #FFFFFF !important;
 }
 
-/* .navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1000px;
-    height: 50px;
-} */
 
-.nav-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* height: 50px; */
+
+.hero-section {
+    background-image: url(/assets/images/about-us-page-writing-1200x675-cropped.jpg);
+    height: 700px;
+    width: 100%;
 }
+
+.hero-img {
+    /* background-size: contain; */
+    width: 100%;
+    /* height: 1654px; */
+    /* background-color: #0000; */
+
+}
+
