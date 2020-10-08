@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="355.928" height="355.929" viewBox="0 0 355.928 355.929">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Playicons" d="M0,64a64,64,0,1,1,64,64A64,64,0,0,1,0,64Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Play_Button" transform="translate(1.225 1.225)">
+    <path id="Oval" d="M176.375,352.751A176.375,176.375,0,1,0,0,176.375" transform="translate(0.364 0.364)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Oval-2" data-name="Oval" d="M144.307,288.614A144.307,144.307,0,1,0,0,144.307" transform="matrix(0.259, -0.966, 0.966, 0.259, 0, 278.78)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Oval-3" data-name="Oval" d="M105.558,211.116A105.558,105.558,0,1,0,0,105.558" transform="matrix(0.966, 0.259, -0.259, 0.966, 102.099, 47.458)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectangle" width="67" height="67" transform="translate(149.948 143.127)" fill="#f25146"/>
+    <g id="Playicons-2" data-name="Playicons" transform="translate(112.948 112.127)">
+      <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+        <path id="Playicons-3" data-name="Playicons" d="M0,64a64,64,0,1,1,64,64A64,64,0,0,1,0,64Z" transform="translate(0 0)" fill="none"/>
+        <g id="Mask_Group_10" data-name="Mask Group 10" transform="translate(0)" clip-path="url(#clip-path)">
+          <g id="_color" data-name="🎨 color">
+            <rect id="Rectangle-2" data-name="Rectangle" width="128" height="128" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
