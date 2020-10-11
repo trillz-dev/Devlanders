@@ -14,10 +14,14 @@ a {
 }
 
 .text-color {
-    color: #FFFFFF;
+    color: #323232 !important;
 }
 
+.hidden {
+    visibility: hidden;
+}
 
+/* INDEX PAGE */
 
 .hero-section {
     background-image: url(/assets/images/become-a-software-developer.jpg);
@@ -26,21 +30,11 @@ a {
     width: 100%;
 }
 
-.hero-img {
-    /* background-size: contain; */
-    width: 100%;
-    /* height: 1654px; */
-    /* background-color: #0000; */
-
-}
-
 .hero-header {
     position: relative;
     top: 250px;
     left: 100px;
     font-family: 'Roboto', sans-serif;
-    /* width: 600px; */
-    /* width: 40%; */
 
 }
 
@@ -88,3 +82,238 @@ a {
     background-color: #323232;
 }
 
+.hero-social {
+    display: flex;
+    flex-direction: row;
+    width: 110px;
+    position: relative;
+    bottom: -260px;
+    right: -530px;
+}
+
+.hero-instagram {
+    font-size: 25px;
+    color: #323232;
+}
+
+.hero-twitter {
+    font-size: 25px;
+    color: #323232;
+
+}
+
+
+
+
+
+/* SERVICE PAGE */
+
+.service-section {
+    /* background-image: url(/assets/images/devlander_hero.png); */
+    background-size: contain;
+    height: 654px;
+    width: 100%;
+}
+
+/* .service_overlay:before {
+    opacity: .5;
+    visibility: visible;
+  }
+
+.service_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.84;
+    background-image: -webkit-linear-gradient(65deg, #110C11 0%, #110C11 50%, #000000 100%);
+  } */
+
+  .service-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 100px;
+  }
+
+  .service-header {
+      width: 20%;
+      position: relative;
+      left: 100px;
+      top: 150px;
+  }
+
+  .service-title {
+      font-weight: 400;
+      font-size: 65px;
+      width: 500px;
+      margin-bottom: 20px;
+  }
+
+  .service-caption {
+    font-weight: 300;
+    font-size: 30px;
+    width: 500px;
+
+}
+
+.service-image {
+    width: 80%;
+}
+
+
+/* LIST SECTION */
+
+.list-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    background: #FBF7F7;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 150px;
+    width: 1300px;
+}
+
+.list-col {
+    width: 500px;
+    height: 650px;
+    align-items: center;
+}
+
+.list-image {
+    margin-bottom: 20px;
+    margin-left: -35px;
+
+}
+
+.list-img {
+    max-width: 700px;
+}
+
+.list-title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.list-caption {
+    font-size: 20px;
+    font-weight: 300px;
+    /* width: 550px; */
+    line-height: 35px;
+    margin-bottom: 100px;
+}
+
+.list-btn {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: transparent;
+    /* border: 2px solid #EA5252; */
+    /* border-radius: 5px; */
+    color: #EA5252;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* width: 150px; */
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+
+
+/* WHY SECTION */
+
+.why-section {
+    margin-top: 20px;
+    background: #686868;
+    height: 600px;
+    z-index: -1px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+}
+
+.why-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+    text-align: left;
+}
+
+.why-header {
+    font-size: 42px;
+    font-weight: 300;
+    color: #FBF7F7;
+    margin-bottom: 50px;
+    margin-left: -610px;
+
+}
+
+.why-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.why-card {
+    border: 0 solid #e2e8f0;
+    box-sizing: border-box;
+    box-shadow: 1px 1px #e2e8f0;
+    background: #FFFFFF;
+    width: 400px;
+    margin-left: 20px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+
+.why-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 350px; */
+    margin-bottom: 50px;
+}
+
+.why-img {
+    width: 5rem;
+    margin-left: 30px;
+}
+
+.why-title {
+    font-size: 25px;
+    font-weight: 400;
+    color: #6E6E6E;
+    width: 240px;
+    /* letter-spacing: .4px; */
+    line-height: 30px;
+}
+
+.why-caption {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E6E6E;
+    width: 350px;
+    line-height: 25px;
+    font-family: helvetica;
+}
