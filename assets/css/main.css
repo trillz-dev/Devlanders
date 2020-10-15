@@ -109,27 +109,11 @@ a {
 /* SERVICE PAGE */
 
 .service-section {
-    /* background-image: url(/assets/images/devlander_hero.png); */
     background-size: contain;
     height: 654px;
     width: 100%;
 }
 
-/* .service_overlay:before {
-    opacity: .5;
-    visibility: visible;
-  }
-
-.service_overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.84;
-    background-image: -webkit-linear-gradient(65deg, #110C11 0%, #110C11 50%, #000000 100%);
-  } */
 
   .service-container{
       display: flex;
@@ -262,24 +246,25 @@ a {
     font-weight: 300;
     color: #FBF7F7;
     margin-bottom: 50px;
-    margin-left: -610px;
+    margin-left: -620px;
 
 }
 
 .why-row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    width: 1280px;
 }
 
 .why-card {
     border: 0 solid #e2e8f0;
+    border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 1px 1px #e2e8f0;
     background: #FFFFFF;
     width: 400px;
-    margin-left: 20px;
-    height: 350px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -316,4 +301,86 @@ a {
     width: 350px;
     line-height: 25px;
     font-family: helvetica;
+}
+
+
+/* PROJECT FORM SECTION */
+
+.project-section {
+    margin-bottom: 50px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F12E45;
+    width: 1050px;
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-radius: 0 0 50px 50px;
+}
+
+.project-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-header {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 40px;
+    margin-left: -460px;
+    margin-bottom: 20px;
+}
+
+.project-fullname,
+.project-phone {
+    width: 450px;
+    height: 55px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #F56274;
+}
+
+.project-email {
+    width: 920px;
+    height: 55px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #F56274;
+}
+
+.project-text {
+    height: 150px;
+    width: 920px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #F56274;
+}
+
+[type='text'],
+[type='email'] {
+    padding-left: 15px;
+    color: #FAB5BC;
+}
+
+.project-btn {
+    border: 0;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    margin-left: -460px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+/* PRODUCT PAGE */
+
+.product_hero-section {
+    background-image: url(/assets/images/charles-deluvio-Lks7vei-eAg-unsplash-min.jpg);
+    height: 650px;
 }
