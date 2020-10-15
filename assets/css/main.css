@@ -34,7 +34,6 @@ a {
     position: relative;
     top: 250px;
     left: 100px;
-    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -381,6 +380,52 @@ a {
 /* PRODUCT PAGE */
 
 .product_hero-section {
-    background-image: url(/assets/images/charles-deluvio-Lks7vei-eAg-unsplash-min.jpg);
+    background-image: url(/assets/images/software_development_2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 650px;
+}
+
+
+
+/* ABOUT PAGE - HOW WE WORK */
+
+.about_hero {
+    background-image: linear-gradient(297deg, rgba(16,7,28,0.13) 0%, rgba(16,7,39,0.87) 52%, rgba(16,7,39,1) 100%) ,url(/assets/images/456288f57de5c9e87c7a77ed99ddc31f7c69cdaa-1692x990.webp);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    height: 750px;
+    /* background: gray; */
+
+}
+
+.bg-black {
+    background-color: rgba(0,0,0,var(--bg-opacity));
+}
+
+.about_hero-header {
+    position: relative;
+    top: 250px;
+    left: 100px;
+}
+
+.about_hero-title {
+    color: white;
+    font-weight: 300;
+    font-size: 55px;
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+.about_hero-caption {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    width: 600px;
+}
+.about_hero-cta {
+    position: relative;
+    bottom: -300px;
+    left: 100px;
 }
