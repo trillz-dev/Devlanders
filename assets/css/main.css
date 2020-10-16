@@ -43,6 +43,26 @@ a {
     font-size: 65px;
     margin-bottom: 30px;
     width: 600px;
+    overflow: hidden;
+}
+
+.cursor {
+    width: 2px;
+    /* height: 100px; */
+    background-color: #ccc;
+    animation: blink 1s infinite;
+}
+
+.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0% { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: #ccc; }
+    100% { background-color: #ccc; }
 }
 
 .hero-caption {
@@ -153,7 +173,7 @@ a {
     display: flex;
     flex-direction: row;
     margin-top: 150px;
-    background: #FBF7F7;
+    /* background: #FBF7F7; */
 }
 
 .list-container {
@@ -224,7 +244,7 @@ a {
 
 .why-section {
     margin-top: 20px;
-    background: #686868;
+    background: #FBF7F7;
     height: 600px;
     z-index: -1px;
     /* display: flex;
