@@ -42,9 +42,10 @@ a {
     font-weight: 300;
     font-size: 65px;
     margin-bottom: 30px;
-    width: 600px;
+    width: 700px;
     overflow: hidden;
 }
+
 
 .cursor {
     width: 2px;
