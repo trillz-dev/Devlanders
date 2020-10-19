@@ -28,7 +28,7 @@ a {
 .hero-section {
     background-image: url(/assets/images/become-a-software-developer.jpg);
     background-size: contain;
-    height: 654px;
+    height: 100vh;
     max-width: 100%;
 }
 
@@ -136,7 +136,7 @@ a {
 @media screen and ( max-width: 500px) {
     .hero-section {
         background-size: contain;
-        height: 667px;
+        height: 100vh;
         max-width: 100%;
     }
     
