@@ -1,7 +1,7 @@
 const typedTextSpan = document.querySelector('.service-text');
 const cursorSpan = document.querySelector('.service-cursor');
 
-const textArray = ['build,', 'test,', 'launch', 'and enhace'];
+const textArray = ['build,', 'test,', 'launch,', 'enhace'];
 const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 1000;
