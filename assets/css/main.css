@@ -136,7 +136,7 @@ a {
 @media screen and ( max-width: 500px) {
     .hero-section {
         background-size: contain;
-        height: 100vh;
+        max-height: 100vh;
         max-width: 100%;
     }
     
