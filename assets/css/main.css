@@ -136,37 +136,31 @@ a {
 @media screen and ( max-width: 500px) {
     .hero-section {
         background-size: contain;
-        max-height: 100vh;
+        height: 100vh;
         max-width: 100%;
     }
     
     .hero-header {
-        position: relative;
-        top: 200px;
+        top: 230px;
         left: 30px;
     
     }
     
     .hero-title {
-        color: white;
-        font-weight: 300;
         font-size: 30px;
         margin-bottom: 30px;
-        width: 700px;
+        width: 330px;
         overflow: hidden;
     }
 
     .hero-caption {
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
         font-size: 13px;
-        width: 600px;
+        width: 330px;
     }
     
     .hero-cta {
         position: relative;
-        bottom: -230px;
+        bottom: -260px;
         left: 30px;
     }
     
