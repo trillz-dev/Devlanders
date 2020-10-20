@@ -338,6 +338,13 @@ p {
   }
 }
 
+@media only screen and (max-width: 786px) {
+  .navigation__brand {
+    margin-right: 70px;
+    margin-left: 20px;
+  }
+}
+
 .navigation-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
