@@ -362,34 +362,35 @@ a {
 
 @media screen and ( max-width: 500px ) {
     .service-section {
-        background-image: url();
+        /* background-image: url(); */
+        /* width: 100%; */
     }
 
     .service-header {
         width: 20%;
         position: relative;
-        left: 50px;
+        left: 30px;
         top: 30px;
     }
   
     .service-title {
         font-weight: 300;
         font-size: 30px;
-        width: 500px;
+        width: 200px;
         margin-bottom: 20px;
     }
 
     .service-caption {
         font-weight: 300;
         font-size: 16px;
-        width: 500px;
+        width: 300px;
     
     }
     
     .service-btn {
         text-transform: uppercase;
         font-weight: 300;
-        font-size: 20px;
+        font-size: 15px;
         background-color: transparent;
         border: 2px solid #2D3136;
         border-radius: 5px;
@@ -398,8 +399,9 @@ a {
         flex-direction: row;
         align-items: center;
         height: 45px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 135px;
     }
     
     .service-image {
