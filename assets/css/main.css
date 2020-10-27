@@ -362,8 +362,6 @@ a {
 
 @media screen and ( max-width: 500px ) {
     .service-section {
-        /* background-image: url(); */
-        /* width: 100%; */
     }
 
     .service-header {
@@ -968,7 +966,7 @@ a {
 }
 
 .contact-container {
-    width: 800px;
+    width: 750px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -987,5 +985,65 @@ a {
 }
 
 .form-section {
-    width: 800px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-wrapper {
+    /* margin-left: -5px; */
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+.contact-fullname,
+.contact-email {
+    height: 55px;
+    width: 360px;
+    border: 1px solid #D8DEDF;
+    border-radius: 5px;
+    background-color: #FBFDFF;
+}
+
+.contact-fullname {
+    margin-right: 27px;
+}
+
+.contact-text {
+    height: 170px;
+    width: 100%;
+    border: 1px solid #D8DEDF;
+    border-radius: 5px;
+    background-color: #FBFDFF;
+}
+
+/* [type='checkbox'] {
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 100px;
+} */
+
+
+  input[type='checkbbox'] {
+    display: inline-grid;
+    width: 1em;
+    height: 1em;
+    border-radius: 0.25em;
+    border: 0.1em solid currentColor;
+  }
+
+
+
+
+
+
+
+
+
+/*//////////////////// FOOTER-TAG ///////////////////////*/
+
+footer {
+    background-color: #252525;
 }
