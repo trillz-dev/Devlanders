@@ -142,7 +142,7 @@ a {
     
     .hero-header {
         top: 230px;
-        left: 30px;
+        left: 25px !important;
     
     }
     
@@ -161,7 +161,7 @@ a {
     .hero-cta {
         position: relative;
         bottom: -260px;
-        left: 30px;
+        left: 25px !important;
     }
     
     .hero-btn {
