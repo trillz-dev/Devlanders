@@ -1049,14 +1049,9 @@ a {
     font-size: 20px;
 }
 
-  /* input[name='desc'] {
-    padding-left: 20px;
-  } */
-
   .contact-button {
       display: flex;
       justify-content: center;
-      /* align-items: center; */
   }
 
   .contact-btn {
@@ -1068,6 +1063,118 @@ a {
       font-size: 22px;
       font-weight: 500;
       text-transform: capitalize;
+  }
+
+
+
+  @media screen and ( max-width: 500px ) {
+
+    .contact-section {
+        margin-top: 180px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contact-container {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .contact-title {
+        font-size: 2.1rem;
+        line-height: 1.5;
+        font-weight: 300;
+        text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    }
+    
+    .contact-caption {
+        font-size: 1.3rem;
+        line-height: 1.33;
+        font-weight: 400;
+        text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    }
+    
+    .form-section {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form-title,
+    .form_sub-title {
+        font-size: 1.6rem;
+        line-height: 1.428;
+        color: #000;
+        text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    }
+    
+    .form-caption,
+    .form_sub-caption {
+        font-size: 1.1rem;
+        line-height: 1.66;
+        color: #999;
+    }
+    
+    .info-wrapper {
+        flex-direction: column;
+        /* justify-content: space-between; */
+        width: 300px;
+    }
+    
+    .name-label,
+    .email-label,
+    .text-label {
+        font-size: 1rem;
+        line-height: 1.5;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+    
+    .contact-fullname,
+    .contact-email {
+        height: 55px;
+        width: 100%;
+        border: 1px solid #D8DEDF;
+        border-radius: 5px;
+        background-color: #FBFDFF;
+    }
+    
+    .contact-fullname {
+        margin-right: 0px;
+    }
+    
+    .contact-text {
+        height: 170px;
+        width: 100%;
+        border: 1px solid #D8DEDF;
+        border-radius: 5px;
+        background-color: #FBFDFF;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    
+      .contact-button {
+          display: flex;
+          justify-content: center;
+      }
+    
+      .contact-btn {
+          width: 250px;
+          height: 60px;
+          border-radius: 5px;
+          background-color: #5FC1CE;
+          color: #FBF7F7;
+          font-size: 22px;
+          font-weight: 500;
+          text-transform: capitalize;
+      }
+
   }
 
 
