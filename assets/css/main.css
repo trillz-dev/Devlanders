@@ -1138,6 +1138,10 @@ a {
     .contact-email {
         width: 330px;
     }
+
+    .contact-fullname {
+        margin-right: 0;
+    }
     
     .contact-text {
         height: 170px;
