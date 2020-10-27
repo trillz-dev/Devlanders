@@ -976,12 +976,14 @@ a {
     font-size: 2.1rem;
     line-height: 1.5;
     font-weight: 300;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
 .contact-caption {
     font-size: 1.3rem;
     line-height: 1.33;
     font-weight: 400;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
 .form-section {
@@ -992,10 +994,35 @@ a {
     align-items: center;
 }
 
+.form-title,
+.form_sub-title {
+    font-size: 1.6rem;
+    line-height: 1.428;
+    color: #000;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.form-caption,
+.form_sub-caption {
+    font-size: 1.1rem;
+    line-height: 1.66;
+    color: #999;
+}
+
 .info-wrapper {
     /* margin-left: -5px; */
     /* justify-content: space-between; */
     width: 100%;
+}
+
+.name-label,
+.email-label,
+.text-label {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 .contact-fullname,
@@ -1017,14 +1044,13 @@ a {
     border: 1px solid #D8DEDF;
     border-radius: 5px;
     background-color: #FBFDFF;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 20px;
 }
 
-  /* input[type='checkbbox'] {
-    display: inline-grid;
-    width: 1em;
-    height: 1em;
-    border-radius: 0.25em;
-    border: 0.1em solid currentColor;
+  /* input[name='desc'] {
+    padding-left: 20px;
   } */
 
   .contact-button {
