@@ -1019,20 +1019,34 @@ a {
     background-color: #FBFDFF;
 }
 
-/* [type='checkbox'] {
-    border: 1px solid white;
-    border-radius: 50px;
-    width: 100px;
-} */
-
-
-  input[type='checkbbox'] {
+  /* input[type='checkbbox'] {
     display: inline-grid;
     width: 1em;
     height: 1em;
     border-radius: 0.25em;
     border: 0.1em solid currentColor;
+  } */
+
+  .contact-button {
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
   }
+
+  .contact-btn {
+      width: 250px;
+      height: 60px;
+      border-radius: 5px;
+      background-color: #5FC1CE;
+      color: #FBF7F7;
+      font-size: 22px;
+      font-weight: 500;
+      text-transform: capitalize;
+  }
+
+
+
+
 
 
 
