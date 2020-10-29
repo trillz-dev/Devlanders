@@ -142,7 +142,7 @@ a {
     
     .hero-header {
         top: 230px;
-        left: 25px !important;
+        left: 20px !important;
     
     }
     
@@ -161,7 +161,7 @@ a {
     .hero-cta {
         position: relative;
         bottom: -260px;
-        left: 25px !important;
+        left: 20px !important;
     }
     
     .hero-btn {
@@ -902,19 +902,7 @@ a {
 
 
 
-
-/*////////////////////////// PRODUCT PAGE //////////////////////////*/
-
-.product_hero-section {
-    background-image: url(/assets/images/software_development_2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 650px;
-}
-
-
-
-/* ABOUT PAGE - HOW WE WORK */
+/*/////////////////////// ABOUT PAGE - HOW WE WORK /////////////////////////*/
 
 .about_hero {
     background-image: linear-gradient(297deg, rgba(16,7,28,0.13) 0%, rgba(16,7,39,0.87) 52%, rgba(16,7,39,1) 100%) ,url(/assets/images/456288f57de5c9e87c7a77ed99ddc31f7c69cdaa-1692x990.webp);
@@ -923,10 +911,6 @@ a {
     height: 750px;
     /* background: gray; */
 
-}
-
-.bg-black {
-    background-color: rgba(0,0,0,var(--bg-opacity));
 }
 
 .about_hero-header {
@@ -944,7 +928,7 @@ a {
 }
 
 .about_hero-caption {
-    color: white;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 22px;
@@ -955,6 +939,233 @@ a {
     bottom: -300px;
     left: 100px;
 }
+
+.about_hero-btn {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #00D69E;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about_hero-btn:hover {
+    color: #E53E3E;
+    font-weight: 400;
+    background-color: #323232;
+}
+
+/* ABOUT PROCESS SECTION */
+
+.about_process {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* background: #180341; */
+}
+
+.about_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.process-title::before {
+    content: "";
+    display: block;
+    margin: 0px auto 3.5rem;
+    width: 50px;
+    height: 5px;
+    background: rgb(0, 214, 158) none repeat scroll 0% 0%;
+}
+
+.process-title {
+    padding: 0px 23%;
+    /* width: 300px; */
+    margin-bottom: 1.875rem;
+    font-size: 2.625rem;
+    line-height: 1.33;
+    color: #000;
+    text-align: center;
+}
+
+.process-caption {
+    font-size: 1.1875rem;
+    line-height: 1.79;
+    color: rgb(147, 147, 167);
+    text-align: center;
+    white-space: pre-line;
+}
+
+.process-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.process-row-1 {
+    display: flex;
+    position: relative;
+    /* left: -10px; */
+    margin-bottom: 50px;
+}
+
+.process-row-2 {
+    display: flex;
+    position: relative;
+    left: 95px;
+    margin-bottom: 50px;
+}
+
+.process-card-1,
+.process-card-2,
+.process-card-3,
+.process-card-4,
+.process-card-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 480px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 0 10px 0 10px;
+
+}
+
+.process-card-1,
+.process-card-2,
+.process-card-4 {
+    margin-right: 40px;
+}
+
+.process_card-img {
+    width: 200px;
+    margin-bottom: 1.5rem;
+}
+
+.process_card-title {
+    --text-opacity: 1;
+    /* color: #222a41; */
+    color: rgba(34,42,65,var(--text-opacity));
+    margin-bottom: 1.25rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.process_card-caption {
+    --text-opacity: 1;
+    color: #6d7783;
+    color: rgba(109,119,131,var(--text-opacity));
+    /* margin-bottom: 3rem; */
+    font-size: .75rem;
+    line-height: 1.79;
+
+}
+
+.abstract-circle {
+    position: relative;
+    left: -250px;
+    top: 300px;
+    z-index: -1;
+}
+
+.circle-1 {
+    height: 11rem;
+    width: 11rem;
+    background-color: #F12E45;
+    border-radius: 9999px;
+    display: inline-block;
+}
+
+.circle-2 {
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: #F12E45;
+    border-radius: 9999px;
+    display: inline-block;
+    position: relative;
+    top: -190px;
+    left: -50px;
+}
+
+
+
+
+
+/*////////////////////////// PRODUCT PAGE //////////////////////////*/
+
+.product_hero {
+    background-image: linear-gradient(297deg, rgba(16,7,28,0.13) 0%, rgba(16,7,39,0.87) 52%, rgba(16,7,39,1) 100%) ,url(/assets/images/abf339eae0d86cbb63b8cb042258fcbb2bcf4a8f-1920x900.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* background: gray; */
+
+}
+
+.product_hero-header {
+    position: relative;
+    top: 250px;
+    left: 100px;
+}
+
+.product_hero-title {
+    color: white;
+    font-weight: 300;
+    font-size: 55px;
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+.product_hero-caption {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    width: 600px;
+}
+.product_hero-cta {
+    position: relative;
+    bottom: -300px;
+    left: 100px;
+}
+
+.product_hero-btn {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #00D69E;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.product_hero-btn:hover {
+    color: #E53E3E;
+    font-weight: 400;
+    background-color: #323232;
+}
+
+
+
+
 
 
 /*///////////////////////// CONTACT PAGE ////////////////////////////////*/
