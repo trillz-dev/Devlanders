@@ -1496,7 +1496,7 @@ a {
     background-color: #2D2E34;
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: 230px;
 }
 
 .footer-container {
@@ -1523,18 +1523,21 @@ a {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: .125em;
-    font-size: 1rem;
+    font-size: .9rem;
     text-align: right;
+    font-weight: 500;
 }
 
 .footer-social {
     display: flex;
     justify-content: center;
-    width: 110px;
+    width: 150px;
+    margin-left: 5px;
 }
 
 .footer-IG,
-.footer-twitter {
+.footer-twitter,
+.footer-google {
     color: #fff;
     font-size: 20px;
     width: 40px;
@@ -1544,4 +1547,38 @@ a {
     background-color: transparent;
     display: flex;
     align-items: center;
+}
+
+/* FOOTER-NAV */
+
+.footer-nav {
+    position: relative;
+    right: -400px;
+    margin-top: 15px;
+    height: 50px;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.footer_nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: .125em;
+    --text-opacity: 1;
+    color: rgba(255,255,255,var(--text-opacity));
+    padding: 0;
+    margin: 0;
+}
+
+.footer_nav-link:hover {
+    text-transform: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: .125em;
+    --text-opacity: 1;
+    color: rgba(255,255,255,var(--text-opacity));
+    border-bottom: 5px solid #fff;
 }
