@@ -1101,6 +1101,9 @@ a {
     /* display: flex;
     flex-direction: row;
     justify-content: center; */
+    background-image: url(/assets/images/bg-designs.svg);
+    background-repeat: no-repeat;
+    background-position-x: 600px;
 }
 
 .tools-container {
@@ -1123,8 +1126,8 @@ a {
 
 
 .tools-header {
-    width: 300px;
-    text-align: right;
+    /* width: 300px; */
+    text-align: left;
 }
 
 .tools-title {
@@ -1132,11 +1135,21 @@ a {
     margin-bottom: 3.9375rem;
 }
 
+.tools-title::before {
+    content: "";
+    display: block;
+    margin: 0 0 2.5rem ;
+    background: #7142EB;
+    width: 50px;
+    height: 5px;
+}
+
 .tools-caption {
     font-size: 1.2rem;
-    line-height: 1.4;
+    line-height: 2;
+    font-weight: 400;
     color: rgb(147, 147, 167);
-    /* text-align: left; */
+    width: 380px;
 }
 
 
@@ -1160,7 +1173,7 @@ a {
 
 .grid-card {
     width: 250px;
-    height: 250px;
+    height: 260px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1176,16 +1189,29 @@ a {
 .grid-card-index {
     font-size: 1.375rem;
     color: rgb(113, 56, 239);
+    position: relative;
+    left: -80px;
+    top: 0px;
 }
 
-.grid-card-img {
+.grid-card-img-1 {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.grid-card-img-2,
+.grid-card-img-3,
+.grid-card-img-4,
+.grid-card-img-5,
+.grid-card-img-6 {
     width: 60px;
-    /* height: 50%; */
+    margin-bottom: 20px;
 }
 
 .grid-card-title {
     font-size: 1.5625rem;
     color: rgb(0, 0, 0);
+    margin-bottom: 25px;
 }
 
 .grid-card-caption {
@@ -1193,7 +1219,8 @@ a {
     padding: 0px 2rem;
     line-height: 1.56;
     color: rgb(139, 139, 152);
-    width: 200px;
+    width: 250px;
+    height: 100px;
     text-align: center;
     /* opacity: 0; */
 }
@@ -1293,6 +1320,57 @@ a {
     color: #455880;
 }
 
+
+/* KEY BENEFIT SECTION */
+
+.benefit {
+    background-image: url(/assets/images/white-bg-dots.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 370px;
+}
+
+.benefit-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.benefit-title {
+    font-size: 2.8rem;
+    line-height: 1.16;
+    font-weight: 400;
+    width: 550px;
+    margin-left: -600px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.benefit-row {
+    display: flex;
+    justify-content: center;
+}
+
+.benefit-sub-header-1 {
+    margin-right: 100px;
+}
+
+.benefit-sub-title {
+    font-size: 1.8rem;
+    line-height: 1.25;
+    color: #313D3F;
+    margin-bottom: 15px;
+}
+
+.benefit-sub-caption {
+    font-size: 1.3rem;
+    line-height: 1.66;
+    color: #666666;
+    width: 550px;
+}
 
 
 
