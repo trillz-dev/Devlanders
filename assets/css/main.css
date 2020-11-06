@@ -497,9 +497,6 @@ a {
     padding-right: 10px;
 }
 
-.aos-animate {
-
-}
 
 @media screen and ( max-width: 500px ) {
     .list-section {
@@ -652,28 +649,26 @@ a {
 .why-section {
     margin-top: 20px;
     background: #FBF7F7;
-    height: 600px;
+    /* height: 600px; */
     z-index: -1px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center; */
 }
 
 .why-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 100px;
+    padding-top: 120px;
+    padding-bottom: 80px;
     text-align: left;
 }
 
 .why-header {
     font-size: 42px;
     font-weight: 300;
-    color: #FBF7F7;
+    color: #707070;
     margin-bottom: 50px;
     margin-left: -620px;
-
+    z-index: 1;
 }
 
 .why-row {
@@ -815,7 +810,6 @@ a {
 
 .project-section {
     margin-bottom: 50px;
-    margin-top: 500px;
 }
 
 .project-container {
@@ -862,7 +856,7 @@ a {
 }
 
 .project-text {
-    height: 150px;
+    height: 180px;
     width: 920px;
     border: 0;
     border-radius: 3px;

@@ -103,7 +103,7 @@
             <div class="list-container">
                 <!-- ROW 1 -->
                 <div class="list-row">
-                    <div class="list-col-1 aos-animate" data-aos="fade-left" data-aos-delay="200">
+                    <div class="list-col-1" data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out">
                         <div class="list-image">
                             <img class="img-fluid list-img" src="/assets/images/project-mangement.svg" alt="">
                         </div>
@@ -127,7 +127,7 @@
                         <hr>
                     </div>
 
-                    <div class="list-col-2" data-aos="fade-left" data-aos-delay="250">
+                    <div class="list-col-2" data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out">
                         <div class="list-image">
                             <img class="img-fluid list-img" src="/assets/images/web-development.svg" alt="">
                         </div>
@@ -153,7 +153,7 @@
                 </div>
                 <!-- ROW 2 -->
                 <div class="list-row">
-                    <div class="list-col-3" data-aos="fade-left" data-aos-delay="300">
+                    <div class="list-col-3" data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out">
                         <div class="list-image">
                             <img class="img-fluid list-img" src="/assets/images/mobile-development.svg" alt="">
                         </div>
@@ -177,7 +177,7 @@
                         <hr>
                     </div>
 
-                    <div class="list-col-4" data-aos="fade-left" data-aos-delay="350">
+                    <div class="list-col-4" data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out">
                         <div class="list-image">
                             <img class="img-fluid list-img" src="/assets/images/ui-ux-illo-services.svg" alt="">
                         </div>
@@ -203,7 +203,7 @@
                 </div>
                 <!-- ROW 3 -->
                 <div class="list-row">
-                    <div class="list-col-5" data-aos="fade-left" data-aos-delay="400">
+                    <div class="list-col-5" data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out">
                         <div class="list-image">
                             <img class="img-fluid list-img" src="/assets/images/digial.svg" alt="">
                         </div>
@@ -227,7 +227,7 @@
                         <hr>
                     </div>
 
-                    <div class="list-col-6" data-aos="fade-left" data-aos-delay="450">
+                    <div class="list-col-6" data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out">
                         <div class="list-image">
                             <img class="img-fluid list-img" src="/assets/images/testing-illo-services.svg" alt="">
                         </div>
@@ -253,7 +253,7 @@
                 </div>
                 <!-- ROW 4 -->
                 <div class="list-row">
-                    <div class="list-col-7" data-aos="fade-left" data-aos-delay="500">
+                    <div class="list-col-7" data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out">
                         <div class="list-image">
                             <img class="img-fluid list-img" src="/assets/images/maintain_support.svg" alt="">
                         </div>
@@ -343,11 +343,11 @@
         <section class="why-section">
             <div class="why-container">
                 <div>
-                    <h1 class="why-header">Why choose us</h1>
+                    <h1 class="why-header" data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out">Why choose us</h1>
                 </div>
 
                 <div class="why-row">
-                    <div class="why-card">
+                    <div class="why-card" data-aos="flip-up" data-aos-delay="200" data-aos-easing="ease-in-out">
                         <div class="why-card-header">
                             <div>
                                 <h1 class="why-title">Source Code Ownership</h1>
@@ -362,7 +362,7 @@
                         </div>
                     </div>
 
-                    <div class="why-card">
+                    <div class="why-card" data-aos="flip-up" data-aos-delay="250" data-aos-easing="ease-in-out">
                         <div class="why-card-header">
                             <div>
                                 <h1 class="why-title">No Third Parties</h1>
@@ -377,7 +377,7 @@
                         </div>
                     </div>
 
-                    <div class="why-card">
+                    <div class="why-card" data-aos="flip-up" data-aos-delay="300" data-aos-easing="ease-in-out">
                         <div class="why-card-header">
                             <div>
                                 <h1 class="why-title">Local & Accountable</h1>
@@ -535,7 +535,10 @@
   <!-- Animation -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+        offset: 400,
+        duration: 1000,
+    });
   </script>
 
 </body>
