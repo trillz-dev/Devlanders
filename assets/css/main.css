@@ -1708,9 +1708,6 @@ a {
 .legal-section {
     margin-top: 200px;
     margin-bottom: 100px;
-}
-
-.legal-section {
     display: flex;
     justify-content: center;
 }
@@ -1726,17 +1723,11 @@ a {
     text-transform: capitalize;
     position: relative;
     opacity: 1;
-    animation: ascend 1s ease-in ;
     font-size: 3rem;
     line-height: 1.285;
     color: #313D3F;
     font-weight: 300;
     margin-bottom: 100px;
-}
-
-@keyframes ascend {
-    from { transform: rotateX(90deg); }
-    to { transform: rotateX(0deg); }
 }
 
 .legal-desc {
@@ -1788,6 +1779,46 @@ a {
     line-height: 1.9;
     color: #666;
     list-style-type: disc;
+}
+
+
+@media screen and ( max-width: 500px ) {
+    .legal-section {
+        margin-top: 170px;
+        margin-bottom: 100px;
+    }
+    
+    .legal-title {
+        font-size: 2.8rem;
+        margin-bottom: 80px;
+    }
+    
+    .legal-desc {
+        font-size: 1.2rem;
+        width: 345px;
+    }
+    
+    .legal-content {
+        width: 345px;
+        margin-top: 80px;
+    }
+    
+    .text-title {
+        font-size: 1.25rem;
+    }
+    
+    .text-subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .text-desc {
+        font-size: 1.2rem;
+    }
+    
+    .text-list {
+        font-size: 1.2rem;
+    }
 }
 
 
