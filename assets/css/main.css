@@ -495,7 +495,10 @@ a {
     height: 45px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 30px;
+}
+
+.aos-animate {
+
 }
 
 @media screen and ( max-width: 500px ) {
@@ -1735,12 +1738,17 @@ a {
     text-transform: capitalize;
     position: relative;
     opacity: 1;
-    transform: matrix(1, 0, 0, 1, 0, 0);
+    animation: ascend 1s ease-in ;
     font-size: 3rem;
     line-height: 1.285;
     color: #313D3F;
     font-weight: 300;
     margin-bottom: 100px;
+}
+
+@keyframes ascend {
+    from { transform: rotateX(90deg); }
+    to { transform: rotateX(0deg); }
 }
 
 .legal-desc {
