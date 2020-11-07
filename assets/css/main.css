@@ -649,7 +649,7 @@ a {
 .why-section {
     margin-top: 20px;
     background: #FBF7F7;
-    /* height: 600px; */
+    height: 100%;
     z-index: -1px;
 }
 
@@ -726,9 +726,8 @@ a {
     .why-section {
         margin-top: 20px;
         background: #FBF7F7;
-        height: 600px;
+        height: 100%;
         z-index: -1px;
-        margin-bottom: 150px;
     }
     
     .why-container {
@@ -877,7 +876,6 @@ a {
 @media screen and ( max-width: 500px ) {
     .project-section {
         margin-bottom: 50px;
-        margin-top: 800px;
     }
     
     .project-container {
