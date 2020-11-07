@@ -353,7 +353,7 @@ a {
 }
 
 .service-btn {
-    text-transform: uppercase;
+    /* text-transform: uppercase;
     font-weight: 300;
     font-size: 20px;
     background-color: transparent;
@@ -365,7 +365,19 @@ a {
     align-items: center;
     height: 45px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 10px; */
+
+    font-size: 16px;
+    height: 50px;
+    background: transparent linear-gradient(251deg,#fa2b56,#f91c3d) 0 0 no-repeat padding-box;
+    box-shadow: 20px 20px 60px rgba(0,0,0,.4);
+    --text-opacity: 1;
+    color: rgba(255,255,255,var(--text-opacity));
+    padding: .75rem 2rem;
+    border-radius: .125rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 
 .service-image {
@@ -741,9 +753,9 @@ a {
     .why-header {
         font-size: 42px;
         font-weight: 300;
-        color: #FBF7F7;
+        color:#707070;
         margin-bottom: 50px;
-        margin-left: -620px;
+        margin-left: -70px;
     
     }
     
