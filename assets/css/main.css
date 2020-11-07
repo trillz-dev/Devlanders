@@ -503,6 +503,7 @@ a {
         display: flex;
         flex-direction: row;
         margin-top: 150px;
+        overflow: hidden;
         /* background: #FBF7F7; */
     }
     
@@ -557,7 +558,6 @@ a {
     .list-caption {
         font-size: 18px;
         font-weight: 300px;
-        /* width: 550px; */
         line-height: 35px;
         margin-bottom: 100px;
     }
