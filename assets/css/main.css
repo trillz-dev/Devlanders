@@ -820,48 +820,31 @@ a {
 
 
 @media screen and ( max-width: 500px ) {
-    .project-section {
-        margin-bottom: 50px;
-    }
+
     
     .project-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background: #F12E45;
         width: 100%;
         height: 100%;
-        padding-top: 60px;
-        padding-bottom: 30px;
-        border-radius: 0 0 50px 50px;
     }
     
     .project-form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         width: 300px;
 
     }
     
     .project-header {
-        color: #FFFFFF;
         font-weight: 300;
-        font-size: 40px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        width: 300px;
+        font-size: 35px;
+        margin-left: -100px;
+        margin-bottom: 0;
+        width: 200px;
+        line-height: 55px;
     }
     
     .project-fullname,
     .project-phone {
         width: 300px;
-        height: 55px;
-        border: 0;
-        border-radius: 3px;
-        background-color: #F56274;
         display: block;
-
     }
 
     .project-phone {
@@ -870,34 +853,15 @@ a {
     
     .project-email {
         width: 300px;
-        height: 55px;
-        border: 0;
-        border-radius: 3px;
-        background-color: #F56274;
     }
     
     .project-text {
         height: 150px;
         width: 300px;
-        border: 0;
-        border-radius: 3px;
-        background-color: #F56274;
-    }
-    
-    [type='text'],
-    [type='email'] {
-        padding-left: 15px;
-        color: #FAB5BC;
     }
     
     .project-btn {
-        border: 0;
-        border-radius: 5px;
-        width: 150px;
-        height: 40px;
         margin-left: -150px;
-        margin-top: 20px;
-        font-size: 20px;
     }
 }
 
