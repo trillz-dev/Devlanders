@@ -941,6 +941,7 @@ a {
         background-repeat: no-repeat;
         background-position: top;
         width: 100%;
+        overflow: hidden;
     }
 
     .about_hero-header {
@@ -1291,10 +1292,6 @@ a {
     align-items: center;
 }
 
-.tools-col-1 {
-    width: 500px;
-}
-
 
 .tools-header {
     /* width: 300px; */
@@ -1326,7 +1323,7 @@ a {
 
 .tools-col-2 {
     width: 500px;
-    margin-right: 300px;
+    margin-right: 280px;
 }
 
 .tools_col-grid {
@@ -1403,18 +1400,10 @@ a {
         /* display: flex;
         flex-direction: row;
         justify-content: center; */
-        background-image: url(/assets/images/bg-designs.svg);
+        background-image: none;
         background-repeat: no-repeat;
-        background-position-x: 600px;
+        background-position-x: 0px;
     }
-    
-    .tools-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    
     .tools-row {
         display: flex;
         flex-direction: column;
@@ -1425,18 +1414,17 @@ a {
     }
     
     .tools-col-1 {
-        width: 350px;
+        margin-bottom: 150px;
     }
     
     
     .tools-header {
-        /* width: 300px; */
         text-align: left;
     }
     
     .tools-title {
         font-size: 2.625rem;
-        margin-bottom: 3.9375rem;
+        margin-bottom: 5rem;
     }
     
     .tools-title::before {
@@ -1449,11 +1437,11 @@ a {
     }
     
     .tools-caption {
-        font-size: 1.2rem;
-        line-height: 2;
+        font-size: 1.35rem;
+        line-height: 2.1;
         font-weight: 400;
         color: rgb(147, 147, 167);
-        width: 380px;
+        width: 311px;
     }
     
     
@@ -1477,7 +1465,7 @@ a {
     }
     
     .grid-card {
-        width: 250px;
+        width: 311px;
         height: 260px;
         display: flex;
         flex-direction: column;
@@ -1488,7 +1476,7 @@ a {
         /* transition: height 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s; */
         z-index: -2;
         margin-bottom: 40px;
-        margin-right: 50px;
+        margin-right: 0px;
     }
     
     .grid-card-index {
@@ -1639,6 +1627,10 @@ a {
     .ways-container {
         margin-top: 100px;
     }
+
+    .ways-header {
+        margin-bottom: 50px;
+    }
     
     .ways-title::before {
         content: "";
@@ -1670,26 +1662,36 @@ a {
     .ways-grid {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        margin-top: 0px;
         /* width: 1000px; */
     }
     
     .ways-row-1 {
-        width: 550px;
-        margin-right: 150px;
-        margin-top: -150px;
+        width: 300px;
+        margin-right: 0px;
+        margin-top: 0px;
+        display: none;
     }
 
+    /* .ways-grid-img {
+        height: 400px;
+    } */
+
     .ways-row-2 {
-        
+        width: 350px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
     }
     
     
     .ways_step-1,
     .ways_step-2,
     .ways_step-3 {
-        width: 300px;
+        width: 350px;
         margin-top: -25px;
         /* display: flex; */
     }
@@ -1716,7 +1718,7 @@ a {
     }
     
     .ways_step-caption {
-        width: 350px;
+        width: 250px;
         font-size: 16px;
         line-height: 27px;
         color: #455880;
@@ -1773,6 +1775,54 @@ a {
     line-height: 1.66;
     color: #666666;
     width: 550px;
+}
+
+
+@media screen and ( max-width: 500px ) {
+    .benefit {
+        background-size: cover;
+        background-position-y: -70px;
+        height: 530px;
+        z-index: -1;
+    }
+    
+    .benefit-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .benefit-title {
+        font-size: 2.35rem;
+        line-height: 1.45;
+        font-weight: 400;
+        width: 300px;
+        margin-left: -45px;
+        margin-bottom: 30px;
+    }
+    
+    .benefit-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .benefit-sub-header-1 {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    
+    .benefit-sub-title {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+        font-weight: 500;
+    }
+    
+    .benefit-sub-caption {
+        font-size: 1.2rem;
+        line-height: 2;
+        width: 345px;
+    }
 }
 
 
