@@ -1545,6 +1545,12 @@ a {
     margin-top: 100px;
 }
 
+.ways-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .ways-title::before {
     content: "";
     display: block;
@@ -1619,6 +1625,102 @@ a {
     font-size: 16px;
     line-height: 27px;
     color: #455880;
+}
+
+
+@media screen and ( max-width: 500px ) {
+
+    .about_ways {
+        display: flex;
+        justify-content: center;
+        background-color: #F2F4F5;
+    }
+    
+    .ways-container {
+        margin-top: 100px;
+    }
+    
+    .ways-title::before {
+        content: "";
+        display: block;
+        margin: 0px auto 3.5rem;
+        width: 50px;
+        height: 5px;
+        background: rgb(0, 214, 158) none repeat scroll 0% 0%;
+    }
+    
+    .ways-title {
+        padding: 0px 20%;
+        margin-bottom: 1.875rem;
+        font-size: 2.625rem;
+        line-height: 1.33;
+        color: #000;
+        text-align: center;
+    }
+    
+    .ways-caption {
+        font-size: 1.1875rem;
+        line-height: 1.79;
+        color: rgb(147, 147, 167);
+        text-align: center;
+        white-space: pre-line;
+        width: 300px;
+    }
+    
+    .ways-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* width: 1000px; */
+    }
+    
+    .ways-row-1 {
+        width: 550px;
+        margin-right: 150px;
+        margin-top: -150px;
+    }
+
+    .ways-row-2 {
+        
+    }
+    
+    
+    .ways_step-1,
+    .ways_step-2,
+    .ways_step-3 {
+        width: 300px;
+        margin-top: -25px;
+        /* display: flex; */
+    }
+    
+    .ways_step-img-1,
+    .ways_step-img-2,
+    .ways_step-img-3 {
+        width: 50px;
+        position: relative;
+        left: 5px;
+        top: 40px;
+    }
+    
+    .ways_step-header {
+        margin-left: 80px;
+    }
+    
+    .ways_step-title {
+        font-weight: 500;
+        font-size: 24px;
+        /* line-height: 125%; */
+        color: #1E266D;
+        margin-bottom: 10px;
+    }
+    
+    .ways_step-caption {
+        width: 350px;
+        font-size: 16px;
+        line-height: 27px;
+        color: #455880;
+    }
 }
 
 
