@@ -1374,7 +1374,7 @@ section[class^=hero-] {
 
 .hero-section .overlay {
   opacity: 0.84;
-  background-image: -webkit-linear-gradient(65deg, #110C11 0%, #110C11 50%, #000000 100%);
+  background-image: -webkit-linear-gradient(65deg, #110C11 0%, #110C11 50%, transparent 100%);
 }
 
 .hero-section .hero__wave {
