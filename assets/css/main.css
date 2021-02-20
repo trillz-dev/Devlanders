@@ -29,56 +29,50 @@ a {
 .hero-section {
     background-image: url(/assets/images/become-a-software-developer.jpg);
     background-size: contain;
-    height: 100vh;
+    height: 100%;
     max-width: 100%;
 }
 .hero-container {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .dev-logo {
     width: 70px !important;
 }
 .img-animation {
-    width: 420px;
-    position: relative;
-    top: -40px;
-    left: 850px;
+    width: 450px;
+    margin-bottom: -300px;
+    margin-left: -40px;
     background-image: url(/assets/images/website-feature-loop.svg);
-
 }
-/* .hero-text {
+.hero-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-} */
+    position: relative;
+    top: 220px;
+    left: 40px;
+    margin-bottom: 100px;
+}
 
 .hero-title {
     color: white;
     font-weight: 300;
-    font-size: 65px;
+    font-size: 60px;
     margin-bottom: 30px;
     width: 700px;
     overflow: hidden;
-    position: relative;
-    top: 240px;
-    left: 100px;
+    margin-bottom: 50px;
 }
 .hero-caption {
     color: white;
     font-family: 'Roboto', sans-serif;
-    /* font-family: Avenir,Helvetica,sans-serif; */
-    position: relative;
-    top: 240px;
-    left: 100px;
-
     font-weight: 300;
     font-size: 22px;
     width: 600px;
-}
-.hero-cta {
-    position: relative;
-    bottom: -280px;
-    left: 100px;
+    margin-bottom: 30px;
 }
 .hero-btn {
     text-transform: uppercase;
@@ -92,6 +86,7 @@ a {
     flex-direction: row;
     align-items: center;
     height: 45px;
+    width: 300px;
     padding-left: 10px;
     padding-right: 10px;
 
@@ -193,29 +188,6 @@ animation-duration: 5.2s;
 to {
     transform: translateX(-100%); } }
   
-
-
-
-.hero-social {
-    display: flex;
-    flex-direction: row;
-    width: 110px;
-    position: relative;
-    bottom: -260px;
-    right: -530px;
-}
-
-.hero-instagram {
-    font-size: 25px;
-    color: #323232;
-}
-
-.hero-twitter {
-    font-size: 25px;
-    color: #323232;
-
-}
-
 
 @media screen and ( max-width: 1349px) {
     .hero-section {
