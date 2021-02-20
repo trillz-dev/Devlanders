@@ -1,7 +1,7 @@
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "SF Pro Display", "Roboto", Helvetica Neue, Arial, sans-serif;
+  font-family: Avenir,Helvetica,sans-serif;
   color: #2d3136;
   margin: 0;
   overflow-x: hidden;
