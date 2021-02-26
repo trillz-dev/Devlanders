@@ -479,10 +479,10 @@ to {
 .list-title {
     font-size: 25px;
     font-weight: 800;
+    color: #221a44;
     line-height: 30px;
     margin-bottom: 20px;
     width: 300px;
-    color: #221a44;
     /* font-family: Avenir,Helvetica,sans-serif !important; */
     /* font-family: 'Open Sans', sans-serif; */
 
@@ -927,7 +927,7 @@ to {
 
 .about_hero-caption {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-weight: 300;
     font-size: 22px;
     width: 600px;
@@ -1059,21 +1059,23 @@ to {
 }
 
 .process-title {
-    padding: 0px 20%;
+    padding: 0px 0%;
     margin-bottom: 1.875rem;
-    font-size: 2.625rem;
-    line-height: 1.33;
-    color: #000;
+    font-size: 36px;
+    font-weight: 800;
+    color: #221a44;
+    line-height: 30px;
     text-align: center;
 }
 
 .process-caption {
-    font-size: 1.2rem;
-    line-height: 1.79;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
     color: rgb(147, 147, 167);
     text-align: center;
     white-space: pre-line;
-    width: 510px;
+    width: 710px;
 }
 
 .process-grid {
@@ -1085,13 +1087,16 @@ to {
 
 .process-row-1 {
     display: flex;
+    align-items: center;
     position: relative;
-    /* left: -10px; */
+    left: -220px;
     margin-bottom: 50px;
 }
 
 .process-row-2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 95px;
     margin-bottom: 50px;
@@ -1100,13 +1105,13 @@ to {
 .process-card-1,
 .process-card-2,
 .process-card-3,
-.process-card-4,
-.process-card-5 {
+.process-card-4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 400px;
-    height: 480px;
+    height: 500px;
     text-align: center;
     border: 1px solid gray;
     padding: 0 10px 0 10px;
@@ -1114,39 +1119,80 @@ to {
 }
 
 .process-card-1,
-.process-card-2,
-.process-card-4 {
+.process-card-3 {
     margin-right: 40px;
 }
-
-.process_card-img {
-    width: 200px;
-    margin-bottom: 1.5rem;
+.process_card-image {
+    height: 200px;
+    margin-bottom: 20px;
 }
-
+.process_card-img-1 {
+    width: 300px;
+}
+.process_card-img-2 {
+    width: 300px;
+    margin-top: -100px;
+}
+.process_card-img-3 {
+    width: 300px;
+}
+.process_card-img-4 {
+    width: 300px;
+}
+.process_card-header-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.process_card-header-2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: -100px;
+}
+.process_card-header-3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.process_card-header-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.process_svg {
+    color: #FF397F !important;
+    margin-right: 20px;
+}
+.process_svgg {
+    color: #FF397F !important;
+    margin-right: -15px;
+}
 .process_card-title {
     --text-opacity: 1;
-    /* color: #222a41; */
     color: rgba(34,42,65,var(--text-opacity));
-    margin-bottom: 1.25rem;
-    font-size: 1.125rem;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 800;
+    color: #221a44;
+    line-height: 30px;
 }
 
 .process_card-caption {
     --text-opacity: 1;
     color: #6d7783;
     color: rgba(109,119,131,var(--text-opacity));
-    /* margin-bottom: 3rem; */
-    font-size: .75rem;
-    line-height: 1.79;
+    font-size: 16px;
+    font-weight: 600;
+    /* color: #221a44; */
+    line-height: 25px;
 
 }
 
 .abstract-circle {
     position: relative;
     left: -250px;
-    top: 300px;
+    top: 150px;
     z-index: -1;
 }
 
